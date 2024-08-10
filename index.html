@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Fare Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cab Fare Aggregator</h1>
+    <div>
+        <label for="pickup">Pickup Location:</label>
+        <input type="text" id="pickup" name="pickup">
+    </div>
+    <div>
+        <label for="dropoff">Drop-off Location:</label>
+        <input type="text" id="dropoff" name="dropoff">
+    </div>
+    <button onclick="getFares()">Get Fares</button>
+    <div id="results"></div>
+    <script src="script.js"></script>
+</body>
+</html>
